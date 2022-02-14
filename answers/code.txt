@@ -40,7 +40,7 @@ List all files with the extension .txt in lorem folder.
 Count the rows in sed.txt file from lorem folder. Look concatenate cat and wc with the pipe |.
 cat sed.txt | wc -l
 Count the files which start with lorem in all directories.
-ls -1 lorem* | wc -l
+find . -type f -name "lorem*" | wc -l
 
 
 
